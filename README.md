@@ -7,6 +7,7 @@ To verify functionality using the Test Bench, synthesize and analyse area and Po
 ## Tool Required:
 Functional Simulation: Incisive Simulator (ncvlog, nclaunch, ncsim)
 
+
 Synthesise using Genus
 
 ## Design Information and Block Diagram:
