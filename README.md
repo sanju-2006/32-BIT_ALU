@@ -116,7 +116,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 
 After this, you can see the window like below
 
-![WhatsApp Image 2025-10-10 at 10 37 07_b8a51534](https://github.com/user-attachments/assets/d7200954-7646-4166-a50e-3da07c37bb5e)
+![WhatsApp Image 2025-10-10 at 10 37 07_e1c7f129](https://github.com/user-attachments/assets/c7ab6c5e-b183-43f4-8d24-10dc10288d6b)
 
 #### Fig 2: Invoke the Cadence Environment
 
@@ -130,7 +130,7 @@ or
 
 It will invoke the nclaunch window for functional simulation. We can compile, elaborate and simulate it using Multiple Steps.
 
-![WhatsApp Image 2025-10-10 at 10 37 19_0d258dd9](https://github.com/user-attachments/assets/1efe11d8-6551-4fa5-bf21-7ffd7f76d78e)
+![WhatsApp Image 2025-10-10 at 10 37 19_0fd6e96b](https://github.com/user-attachments/assets/bf6ef7e1-a42e-4e0f-bdf1-7880d6f0d120)
 
 
 #### Fig 3: Setting Multi-step simulation
@@ -138,8 +138,6 @@ It will invoke the nclaunch window for functional simulation. We can compile, el
 Select Multiple Step and then select “Create cds.lib File” as shown in the figure below
 
 Click the .cds.lib file and save the file by clicking on the Save option
-
-<img width="332" height="432" alt="image" src="https://github.com/user-attachments/assets/8d84aaf1-602b-4c04-8024-c5331131ea80" />
 
 
 #### Fig 4:cds.lib file Creation
@@ -151,7 +149,7 @@ We are simulating a verilog design without using any libraries
 
 Click “OK” in the “nclaunch: Open Design Directory” window, as shown in the figure below
 
-![WhatsApp Image 2025-10-10 at 10 37 56_e7caffba](https://github.com/user-attachments/assets/4e7b12f7-5c6f-4124-9dc0-4ee8bb4cc3f4)
+<img width="739" height="380" alt="image" src="https://github.com/user-attachments/assets/d28939ea-3f9f-40c6-a012-68a7450d283e" />
 
  
 #### Fig 5: Selection of Don’t include any libraries
@@ -163,7 +161,7 @@ Worklib is the directory where all the compiled codes are stored, while Snapshot
 
 To perform the function simulation, the following three steps are involved: Compilation, Elaboration and Simulation.
 
-![WhatsApp Image 2025-10-10 at 10 38 22_ad34a64d](https://github.com/user-attachments/assets/7b44f802-b49c-4671-b74e-5b48cd3f0a67)
+<img width="770" height="429" alt="image" src="https://github.com/user-attachments/assets/03c9997d-4fa3-4b5a-8c9a-f5e005d0aac7" />
 
 
 #### Fig 6: Nclaunch Window
@@ -187,7 +185,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile filename.v
 Left side select the file and in Tools: launch verilog compiler with current selection will get enable. Click it to compile the code
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-![WhatsApp Image 2025-10-10 at 10 38 54_e9018664](https://github.com/user-attachments/assets/fa6a8a21-5e96-4b6c-badf-e51ca1cc8547)
+<img width="763" height="252" alt="image" src="https://github.com/user-attachments/assets/3700c20a-7993-4101-b8b6-bd33443a924d" />
 
 #### Fig 7: Compiled database in WorkLib
 After compilation, it will come under worklib. You can see on the right side window
@@ -218,7 +216,7 @@ Outputs: Elaborate database updated in the mapped library if successful, generat
 
 After elaboration, the file will come under snapshot. Select the test bench and simulate it.
 
-![WhatsApp Image 2025-10-10 at 10 39 09_f181d96d](https://github.com/user-attachments/assets/f6d57753-9522-49b7-829a-58800771eba5)
+<img width="768" height="352" alt="image" src="https://github.com/user-attachments/assets/5d7e7471-ef62-4984-8278-20117913af72" />
 
 
 #### Fig 8: Elaboration Launch Option
@@ -234,12 +232,12 @@ Simulations allow dumping design and test bench signals into a waveform
 
 Steps for simulation – Run the simulation command with simulator options
 
-![WhatsApp Image 2025-10-10 at 10 39 20_8a94f083](https://github.com/user-attachments/assets/617e78cb-30bc-469a-8d16-695fa2f71698)
+<img width="774" height="349" alt="image" src="https://github.com/user-attachments/assets/d176df45-7a3d-498b-acf9-93d70cf9ce19" />
 
 
 #### Fig 9: Design Browser window for simulation
 
-![WhatsApp Image 2025-10-10 at 10 39 30_af4078e6](https://github.com/user-attachments/assets/9b5c4d23-545c-46b1-9272-42153eb870ce)
+<img width="595" height="345" alt="image" src="https://github.com/user-attachments/assets/4f7c2f93-5595-48b4-8194-fb4f8e2affeb" />
 
 #### Fig 10: Simulation Waveform Window
 
@@ -258,15 +256,18 @@ The Liberty files are present in the library path,
 
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist. Or use source run.tcl command in the terminal window to view the netlist, and a log file will be created in the working folder.
 
-![WhatsApp Image 2025-10-10 at 10 39 42_e25bbf27](https://github.com/user-attachments/assets/e2700fcb-001d-4eee-b7a5-9958f752a36c)
+<img width="684" height="307" alt="image" src="https://github.com/user-attachments/assets/511441f4-2213-493e-8531-386627f94708" />
+
 
 #### Fig 11: Synthesis RTL Schematic 
 
-![WhatsApp Image 2025-10-10 at 10 39 52_039dac26](https://github.com/user-attachments/assets/251428c1-1746-49bc-8ce6-ea27588d6968)
+<img width="550" height="347" alt="image" src="https://github.com/user-attachments/assets/a00bfe0d-2131-4534-8500-78eaaddbe70f" />
+
 
 #### Fig 12: Area report
 
-![WhatsApp Image 2025-10-10 at 10 39 52_79f99952](https://github.com/user-attachments/assets/9845c857-ae24-447f-8049-aedff2d4ba0a)
+<img width="779" height="116" alt="image" src="https://github.com/user-attachments/assets/dae89800-d4ba-435e-b722-26ebfed729fc" />
+
 
 #### Fig 13: Power Report
 
