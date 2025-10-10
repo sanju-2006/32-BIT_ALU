@@ -116,7 +116,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 
 After this, you can see the window like below
 
-![WhatsApp Image 2025-10-10 at 10 37 07_e1c7f129](https://github.com/user-attachments/assets/c7ab6c5e-b183-43f4-8d24-10dc10288d6b)
+<img width="1205" height="661" alt="image" src="https://github.com/user-attachments/assets/d6c80f3f-ae63-4a4f-818d-38948271dd0e" />
 
 #### Fig 2: Invoke the Cadence Environment
 
@@ -130,7 +130,7 @@ or
 
 It will invoke the nclaunch window for functional simulation. We can compile, elaborate and simulate it using Multiple Steps.
 
-![WhatsApp Image 2025-10-10 at 10 37 19_0fd6e96b](https://github.com/user-attachments/assets/bf6ef7e1-a42e-4e0f-bdf1-7880d6f0d120)
+<img width="307" height="302" alt="image" src="https://github.com/user-attachments/assets/fac12478-9dd3-4960-b3a3-f4612cc39545" />
 
 
 #### Fig 3: Setting Multi-step simulation
@@ -149,7 +149,7 @@ We are simulating a verilog design without using any libraries
 
 Click “OK” in the “nclaunch: Open Design Directory” window, as shown in the figure below
 
-<img width="739" height="380" alt="image" src="https://github.com/user-attachments/assets/d28939ea-3f9f-40c6-a012-68a7450d283e" />
+<img width="205" height="276" alt="image" src="https://github.com/user-attachments/assets/2d3b8d33-7af3-414f-90a9-1cef300d34ae" />
 
  
 #### Fig 5: Selection of Don’t include any libraries
